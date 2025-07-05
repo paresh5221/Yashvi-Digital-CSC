@@ -1,100 +1,128 @@
-<!DOCTYPE html><html lang="gu">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Yashvi Digital CSC</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f2f2f2;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #2f80ed;
       color: white;
-      padding: 15px 0;
+      padding: 20px 0;
       text-align: center;
-      font-size: 24px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
-    nav {
-      background-color: #333;
-      overflow: hidden;
+    h1 {
+      margin: 0;
+      font-size: 2rem;
     }
-    nav a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
+    .container {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
     }
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    section {
+    .info-box {
+      background: white;
       padding: 20px;
-      text-align: center;
+      margin-bottom: 20px;
+      border-left: 5px solid #2f80ed;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
-    .service {
-      background-color: white;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      max-width: 600px;
+    .info-box h2 {
+      margin-top: 0;
+      color: #2f80ed;
     }
     footer {
-      background-color: #4CAF50;
-      color: white;
       text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      padding: 15px;
+      background: #f0f0f0;
+      font-size: 0.9rem;
     }
-    .icon {
-      font-size: 40px;
-      margin-bottom: 10px;
-      color: #4CAF50;
+    form input, form select, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    form button {
+      background: #2f80ed;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    form button:hover {
+      background: #1c61c4;
     }
   </style>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    યશવી ડિજિટલ CSC કેન્દ્ર
-  </header>  <nav>
-    <a href="#home">હોમ</a>
-    <a href="#services">સેવાઓ</a>
-    <a href="#contact">સંપર્ક કરો</a>
-  </nav>  <section id="home">
-    <h2>તમારું સ્વાગત છે!</h2>
-    <p>અમે PF, પાન કાર્ડ, મતદાર કાર્ડ અને અન્ય ઓનલાઈન સેવાઓ પૂરી પાડી રહ્યા છીએ.</p>
-  </section>  <section id="services">
-    <div class="service">
-      <div class="icon"><i class="fas fa-id-card"></i></div>
-      <h3>પાન કાર્ડ સેવા</h3>
-      <p>નવી અરજી, સુધારા અને પેન કૉમ્પ્લેન્ટ સેવા.</p>
+    <h1>Yashvi Digital CSC</h1>
+    <p>Your trusted digital service center in Vejalpur, Ahmedabad</p>
+  </header>
+
+  <div class="container">
+    <div class="info-box">
+      <h2>📍 Location</h2>
+      <p>Ishwar Ami Krupa Society,<br>Near Chamunda Crossing,<br>Vejalpur, Ahmedabad</p>
     </div>
-    <div class="service">
-      <div class="icon"><i class="fas fa-rupee-sign"></i></div>
-      <h3>પીએફ સેવા</h3>
-      <p>પીએફ વિથડ્રોઅલ, કાયમી તથા આધાર લિંકિંગ સેવાઓ.</p>
+
+    <div class="info-box">
+      <h2>📞 Contact</h2>
+      <p>Mobile: <strong>8160407229</strong></p>
     </div>
-    <div class="service">
-      <div class="icon"><i class="fas fa-address-card"></i></div>
-      <h3>વોટર ID સેવા</h3>
-      <p>નવી અરજી અને સુધારાઓ માટે સહાયતા.</p>
+
+    <div class="info-box">
+      <h2>🧾 Available Services</h2>
+      <ul>
+        <li>New / Correction PAN Card</li>
+        <li>Voter ID Services</li>
+        <li>PF Withdrawal / Updates</li>
+        <li>Other Government Services</li>
+      </ul>
     </div>
-  </section>  <section id="contact">
-    <h2>સંપર્ક માહિતી</h2>
-    <p><strong>કેન્દ્રનું નામ:</strong> યશવી ડિજિટલ CSC</p>
-    <p><strong>એડ્રેસ:</strong> ઇશ્વર અમી કૃપા સોસાયટી, ચામુંડા ક્રોસિંગ નજીક, વેજલપુર, અમદાવાદ</p>
-    <p><strong>મોબાઇલ:</strong> 8160407229</p>
-  </section>  <footer>
-    © 2025 યશવી ડિજિટલ CSC કેન્દ્ર. તમામ હક્કો આરક્ષિત.
+
+    <div class="info-box">
+      <h2>📅 Book Appointment</h2>
+      <form action="#" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="phone" required>
+
+        <label>Select Service:</label>
+        <select name="service" required>
+          <option value="">--Select--</option>
+          <option value="PAN">PAN Card</option>
+          <option value="Voter">Voter ID</option>
+          <option value="PF">PF Service</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label>Preferred Date:</label>
+        <input type="date" name="date" required>
+
+        <label>Additional Message:</label>
+        <textarea name="message" rows="4" placeholder="Write your message..."></textarea>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Yashvi Digital CSC – All rights reserved.
   </footer>
 </body>
 </html>
